@@ -4,15 +4,17 @@ import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <nav>
-        <img src={logo} alt="stelvey_logo" />
+    <nav className='container'>
+        <img src={logo} alt="stelvey_logo" className='logo' />
         <ul>
           <li>Home</li>
           <li>Services</li>
           <li>About Us</li>
           <li>Why Stelvey</li>
           <li>Testimonials</li>
-          <li>Contact Us</li>
+          <li>
+            <button className='btn'>Contact Us</button>
+          </li>
         </ul>
     </nav>
   )
