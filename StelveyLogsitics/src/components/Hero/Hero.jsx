@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import dark_arrow from '../../assets/right-long-solid-full.svg'
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             transport solutions, ensuring your goods move seamlessly from origin to
             destination with precision and care.
         </p>
-        <button className='btn'>Explore More</button>
+        <button className='btn'>Explore More <img src={dark_arrow} alt="" /></button>
       </div>
 
     </div>
