@@ -14,7 +14,7 @@ const Hero = () => {
             transport solutions, ensuring your goods move seamlessly from origin to
             destination with precision and care.
         </p>
-        <button className='btn'>Explore More <img src={dark_arrow} alt="" /></button>
+        <button className='btn'>Explore More <img src={dark_arrow} alt="right arrow" /></button>
       </div>
 
     </div>
