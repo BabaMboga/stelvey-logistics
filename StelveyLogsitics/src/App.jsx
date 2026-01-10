@@ -8,7 +8,14 @@ const App = () => {
     <div>
       <Navbar/>
       <Hero/>
-      <Services/>
+
+      {/*  adds some spacing on the sides */}
+      <div className="container">
+        <Services/>
+      </div>
+
+      {/* <Services/> */}
+      
     </div>
   )
 }
