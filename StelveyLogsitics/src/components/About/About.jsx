@@ -1,12 +1,14 @@
 import React from 'react'
 import './About.css'
+import about_us from '../../assets/about_us.png'
+import play_icon from '../../assets/play-icon-100.png'
 
 const About = () => {
   return (
     <div className='about'>
         <div className="about-left">
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img src={about_us} alt="" />
+            <img src={play_icon} alt="" />
         </div>
         <div className="about-right">
             <h3>ABOUT StELVEY LOGISTICS</h3>
