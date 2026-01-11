@@ -12,7 +12,7 @@ const App = () => {
 
       {/*  adds some spacing on the sides */}
       <div className="container">
-        <Title/>
+        <Title title='OUR SERVICES' subTitle='What we Offer'/>
         <Services/>
       </div>
 
