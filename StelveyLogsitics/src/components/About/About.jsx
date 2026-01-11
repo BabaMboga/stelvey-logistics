@@ -1,0 +1,31 @@
+import React from 'react'
+import './About.css'
+
+const About = () => {
+  return (
+    <div className='about'>
+        <div className="about-left">
+            <img src="" alt="" />
+            <img src="" alt="" />
+        </div>
+        <div className="about-right">
+            <h3>ABOUT StELVEY LOGISTICS</h3>
+            <h2>Driving Reliable Logistics for a Connected World</h2>
+            <p>
+                At Stelvey Logistics, we provide end-to-end shipping and logistics solutions designed to keep goods moving efficiently and 
+                securely. Our operations are built around reliability, precision and a deep understanding of modern supply chain demands.
+            </p>
+            <p>
+                With a strong focus on operational excellence, technology-driven processes and hands-on industry expertise, we manage transportation, 
+                warehousing and distribution with attention to detail at every stage of the journey.
+            </p>
+            <p>
+                Whether you are a growing business or an established enterprise, Stelvey Logistics offers flexible, scalable solutions tailored to your
+                needs-ensuring timely delivery, cost efficiency and complete peace of mind.
+            </p>
+        </div>
+    </div>
+  )
+}
+
+export default About
