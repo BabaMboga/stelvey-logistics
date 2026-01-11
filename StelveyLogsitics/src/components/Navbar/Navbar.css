@@ -23,3 +23,8 @@ nav ul li{
     font-weight: 500;
     cursor: pointer;
 }
+.dark-nav{
+    /* background: #0F1F2D; */
+    background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7));
+    transition: 0.5s;
+}
