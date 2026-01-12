@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
 import Title from './components/Title/Title'
 import About from './components/About/About'
+import WhyStelvey from './components/WhyStelvey/WhyStelvey'
 
 const App = () => {
   return (
@@ -13,9 +14,11 @@ const App = () => {
 
       {/*  adds some spacing on the sides */}
       <div className="container">
-        <Title title='OUR SERVICES' subTitle='What we Offer'/>
+        <Title title='OUR SERVICES' subTitle='What We Offer'/>
         <Services/>
         <About/>
+        <Title title='WHY STELVEY' subTitle='Your Logistics Partner Of Choice'/>
+        <WhyStelvey/>
       </div>
 
       {/* <Services/> */}
