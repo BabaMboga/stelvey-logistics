@@ -5,6 +5,7 @@ import Services from './components/Services/Services'
 import Title from './components/Title/Title'
 import About from './components/About/About'
 import WhyStelvey from './components/WhyStelvey/WhyStelvey'
+import Testimonials from './components/Testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <About/>
         <Title title='WHY STELVEY' subTitle='Your Logistics Partner Of Choice'/>
         <WhyStelvey/>
+        <Title title='TESTIMONIALS' subTitle='What Customers Say'/>
+        <Testimonials/>
       </div>
 
       {/* <Services/> */}
