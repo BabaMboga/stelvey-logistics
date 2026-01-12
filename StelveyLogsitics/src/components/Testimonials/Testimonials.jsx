@@ -3,7 +3,9 @@ import './Testimonials.css'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <div className='testimonials'>
+        <img src="" alt="" className='next-btn' />
+    </div>
   )
 }
 
