@@ -22,8 +22,10 @@ const Testimonials = () => {
                             <div>
                                 <h3>Elizabeth Kungu</h3>
                                 <span>Nyandarua</span>
+                                
                             </div>
                         </div>
+                        
                         <p>
                             Working with Stelvey Logistics has been a seamless experience from start to finish.
                             Their reliability, clear communication and on-time deliveries have made them a trusted
@@ -40,6 +42,7 @@ const Testimonials = () => {
                                 <span>Nairobi</span>
                             </div>
                         </div>
+                        
                         <p>
                             Stelvey Logistics consistently delivers beyond expecations. Their timely distributions
                             to their highest levels of professionalism made them such a pleasure to work with despite
@@ -56,6 +59,7 @@ const Testimonials = () => {
                                 <span>Kisumu</span>
                             </div>
                         </div>
+                        
                         <p>
                             What stands out about Stelvey Logistics is their commitment to customer satisfaction.
                             They handle shipments with care, provide regular updates and ensure goods arrive safely
@@ -72,6 +76,7 @@ const Testimonials = () => {
                                 <span>Mombasa</span>
                             </div>
                         </div>
+                        
                         <p>
                             We rely on Stelvey Logistics for dependable transport and logistics solutions.
                             Their operational excellence and responsive support team give us complete
@@ -88,6 +93,7 @@ const Testimonials = () => {
                                 <span>South Africa</span>
                             </div>
                         </div>
+                        
                         <p>
                             Stelvey Logistics has simplified our supply chain operations.
                             Their organused approach, timely execution and professionl staff 
