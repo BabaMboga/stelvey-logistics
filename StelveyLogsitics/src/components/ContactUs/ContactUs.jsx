@@ -14,6 +14,7 @@ const ContactUs = () => {
 
     const onSubmit = async (event) => {
         event.preventDefault();
+        setResult("Sending...");
         const formData = new FormData(event.target);
         formData.append("access_key","9ff103f7-9d55-4d80-a1b2-f3e0ac7b52b4");
 
@@ -23,7 +24,7 @@ const ContactUs = () => {
         });
 
         const data = await response.json();
-        setResult(data.success ? "success!": "Error");
+        setResult(data.success ? (event.target.reset(),"Email sent successfully!!") : "Error in sending email.");
     }
 
   return (
