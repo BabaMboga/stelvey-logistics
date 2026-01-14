@@ -9,6 +9,7 @@ import user_3 from '../../assets/dwayne-joe-rufwP9MsNi0-unsplash.jpg'
 import user_4 from '../../assets/pesa-onesmus-KbHac2uKTrI-unsplash.jpg'
 import user_5 from '../../assets/terricks-noah-wJQk6xilGWk-unsplash.jpg'
 
+
 const Testimonials = () => {
 
     const slider = useRef();
