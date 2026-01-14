@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './ContactUs.css'
 import message_icon from '../../assets/icons8-message-100.png'
 import phone_icon from '../../assets/phone-icon.png'
@@ -8,6 +9,23 @@ import arrow_icon from '../../assets/icons8-arrow-100.png'
 
 
 const ContactUs = () => {
+
+    const [result, setResult] = useState("");
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        formData.append("access_key","9ff103f7-9d55-4d80-a1b2-f3e0ac7b52b4");
+
+        const response = await fetch("https://api.web3forms.com/submit",{
+            method: "POST",
+            body: formData,
+        });
+
+        const data = await response.json();
+        setResult(data.success ? "success!": "Error");
+    }
+
   return (
     <div className='contact-us'>
         {/* left column */}
@@ -30,16 +48,18 @@ const ContactUs = () => {
             </ul>
         </div>
         <div className="contact-col">
-            <form>
+            <form onSubmit={onSubmit}>
                 <label >Your Name</label>
                 <input type="text" name='name' placeholder='Enter your name' required/>
                 <label > Phone Number</label>
                 <input type="text" name='phone' placeholder='Enter your mobile number' required />
+                <label >Email</label>
+                <input type="text" name='email' placeholder='Enter your email' required/>
                 <label >Write your messages here</label>
                 <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
                 <button type='submit' className='btn dark-btn'>Submit now <img src={arrow_icon} alt="arrow icon" /></button>
             </form>
-            <span></span>
+            <span>{result}</span>
         </div>
     </div>
   )
