@@ -7,6 +7,7 @@ import About from './components/About/About'
 import WhyStelvey from './components/WhyStelvey/WhyStelvey'
 import Testimonials from './components/Testimonials/Testimonials'
 import ContactUs from './components/ContactUs/ContactUs'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
       </div>
 
       {/* <Services/> */}
+      <Footer/>
+
       
     </div>
   )
