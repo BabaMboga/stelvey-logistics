@@ -28,7 +28,16 @@ const ContactUs = () => {
                 </li>
             </ul>
         </div>
-        <div className="contact-col"></div>
+        <div className="contact-col">
+            <form>
+                <label >Your Name</label>
+                <input type="text" name='name' placeholder='Enter your nme' required/>
+                <label > Phone Number</label>
+                <input type="text" name='phone' placeholder='Enter your mobile number' required />
+                <label >Write your messages here</label>
+                <textarea name="message" rows="10"></textarea>
+            </form>
+        </div>
     </div>
   )
 }
