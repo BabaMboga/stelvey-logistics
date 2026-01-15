@@ -4,7 +4,7 @@ import dark_arrow from '../../assets/right-long-solid-full.svg'
 
 const Hero = () => {
   return (
-    <div className='hero container'>
+    <div className='hero container' id='hero'>
       <div className="hero-text">
         <h1>
           We deliver reliable logistics for a connected world.

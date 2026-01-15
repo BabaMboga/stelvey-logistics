@@ -1,4 +1,5 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 import './Services.css'
 import service_1 from '../../assets/service_1.jpg'
 import service_2 from '../../assets/service_2.jpg'
@@ -9,7 +10,7 @@ import service_icon_3 from '../../assets/customs-officer-100.png'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <Element className='services'id='service'>
         <div className="service">
             <img src={service_1} alt="freight & cargo transportation" />
             <div className="caption">
@@ -32,7 +33,7 @@ const Services = () => {
             </div>
         </div>
 
-    </div>
+    </Element>
   )
 }
 

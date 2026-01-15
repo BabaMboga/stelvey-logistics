@@ -28,7 +28,7 @@ const ContactUs = () => {
     }
 
   return (
-    <div className='contact-us'>
+    <div className='contact-us' id='contact'>
         {/* left column */}
         <div className="contact-col">
             <h3>Send us a message <img src={message_icon} alt="message icon" /></h3> 
