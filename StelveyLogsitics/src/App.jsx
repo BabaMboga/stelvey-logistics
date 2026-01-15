@@ -26,10 +26,11 @@ const App = () => {
         <Testimonials/>
         <Title title='CONTACT US' subTitle='Get In Touch' />
         <ContactUs />
+        <Footer/>
       </div>
 
       {/* <Services/> */}
-      <Footer/>
+      
 
       
     </div>

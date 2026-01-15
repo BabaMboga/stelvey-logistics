@@ -3,7 +3,13 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer'>Footer</div>
+    <div className='footer'>
+      <p>2026 Stelvey Logistics. All rights reserved.</p>
+      <ul>
+        <li>Terms of Service</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
   )
 }
 
