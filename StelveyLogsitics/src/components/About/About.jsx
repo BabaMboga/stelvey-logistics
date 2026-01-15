@@ -3,13 +3,13 @@ import './About.css'
 import about_us from '../../assets/about_us.png'
 import play_icon from '../../assets/play-icon-100.png'
 
-const About = () => {
+const About = ({setPlayVideo}) => {
   return (
     <div className='about'>
         <div className="about-left">
             <div className="about-image-wrapper">
                 <img src={about_us} alt="about stelvey logistics" className='about-img' />
-                <img src={play_icon} alt="play icon" className='play-icon'/>
+                <img src={play_icon} alt="play icon" className='play-icon'onClick={() => {setPlayVideo(true)}}/>
             </div>
             
         </div>
