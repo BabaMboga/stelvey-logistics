@@ -2,9 +2,10 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer'>
-      <p>2026 Stelvey Logistics. All rights reserved.</p>
+      <p>© {currentYear} Stelvey Logistics. All rights reserved.</p>
       <ul>
         <li>Terms of Service</li>
         <li>Privacy Policy</li>
