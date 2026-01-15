@@ -46,3 +46,14 @@
     transition: all 0.3s ease-in-out;
     padding-top: 0;
 }
+
+/* media query */
+@media (max-width:650px){
+    .services{
+        flex-direction: column;;
+    }
+    .service{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
