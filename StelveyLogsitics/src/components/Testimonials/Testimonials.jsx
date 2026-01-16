@@ -115,7 +115,7 @@ const Testimonials = () => {
                         
                         <p>
                             Stelvey Logistics has simplified our supply chain operations.
-                            Their organused approach, timely execution and professionl staff 
+                            Their organised approach, timely execution and professionl staff 
                             have helped our business operate more efficiently and effectively.
                         </p>
                     </div>
