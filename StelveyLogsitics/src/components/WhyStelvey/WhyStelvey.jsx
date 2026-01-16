@@ -1,8 +1,8 @@
 import React from 'react'
 import './WhyStelvey.css'
-import service_1 from '../../assets/service_1.jpg'
+import service_1 from '../../assets/gps_tracking.jpg'
 import service_2 from '../../assets/service_2.jpg'
-import service_3 from '../../assets/service_3.jpg'
+import service_3 from '../../assets/custom_clearance.jpg'
 import service_4 from '../../assets/service_4.jpg'
 import white_arrow from '../../assets/icons8-arrow-100.png'
 
