@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import new_logo from '../../../public/logo-final.svg'
+import final_logo from '../../../public/new-logo.svg'
 import menu_icon from '../../assets/menu-icon.png'
 
 const Navbar = () => {
@@ -22,7 +24,7 @@ const Navbar = () => {
   }
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-        <img src={logo} alt="stelvey_logo" className='logo' />
+        <img src={new_logo} alt="stelvey_logo" className='logo' />
         <ul className={mobileMenu ? '' : 'mobile-menu-hidden' }>
           <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link> </li>
           <li><Link to='service' smooth={true} offset={-260} duration={500}>Services</Link> </li>
