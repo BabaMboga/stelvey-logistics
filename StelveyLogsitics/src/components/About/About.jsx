@@ -14,10 +14,10 @@ const About = ({setPlayVideo}) => {
             
         </div>
         <div className="about-right">
-            <h3>ABOUT STELVEY LOGISTICS</h3>
+            <h3>ABOUT STELVY LOGISTICS</h3>
             <h2>Driving Reliable Logistics for a Connected World</h2>
             <p>
-                At Stelvey Logistics, we provide end-to-end shipping and logistics solutions designed to keep goods moving efficiently and 
+                At Stelvy Logistics, we provide end-to-end shipping and logistics solutions designed to keep goods moving efficiently and 
                 securely. Our operations are built around reliability, precision and a deep understanding of modern supply chain demands.
             </p>
             <br />
@@ -27,7 +27,7 @@ const About = ({setPlayVideo}) => {
             </p>
             <br />
             <p>
-                Whether you are a growing business or an established enterprise, Stelvey Logistics offers flexible, scalable solutions tailored to your
+                Whether you are a growing business or an established enterprise, Stelvy Logistics offers flexible, scalable solutions tailored to your
                 needs-ensuring timely delivery, cost efficiency and complete peace of mind.
             </p>
         </div>

@@ -46,7 +46,7 @@ const Testimonials = () => {
                         </div>
                         
                         <p>
-                            Working with Stelvey Logistics has been a seamless experience from start to finish.
+                            Working with Stelvy Logistics has been a seamless experience from start to finish.
                             Their reliability, clear communication and on-time deliveries have made them a trusted
                             partner for our business operations.
                         </p>
@@ -63,7 +63,7 @@ const Testimonials = () => {
                         </div>
                         
                         <p>
-                            Stelvey Logistics consistently delivers beyond expecations. Their timely distributions
+                            Stelvy Logistics consistently delivers beyond expecations. Their timely distributions
                             to their highest levels of professionalism made them such a pleasure to work with despite
                             my earlier reservations about third-party logistics providers.
                         </p>
@@ -80,7 +80,7 @@ const Testimonials = () => {
                         </div>
                         
                         <p>
-                            What stands out about Stelvey Logistics is their commitment to customer satisfaction.
+                            What stands out about Stelvy Logistics is their commitment to customer satisfaction.
                             They handle shipments with care, provide regular updates and ensure goods arrive safely
                             and on schedule.
                         </p>
@@ -97,7 +97,7 @@ const Testimonials = () => {
                         </div>
                         
                         <p>
-                            We rely on Stelvey Logistics for dependable transport and logistics solutions.
+                            We rely on Stelvy Logistics for dependable transport and logistics solutions.
                             Their operational excellence and responsive support team give us complete
                             confidence in every delivery.
                         </p>
@@ -114,7 +114,7 @@ const Testimonials = () => {
                         </div>
                         
                         <p>
-                            Stelvey Logistics has simplified our supply chain operations.
+                            Stelvy Logistics has simplified our supply chain operations.
                             Their organised approach, timely execution and professionl staff 
                             have helped our business operate more efficiently and effectively.
                         </p>

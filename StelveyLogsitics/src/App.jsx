@@ -25,7 +25,7 @@ const App = () => {
         <Title title='OUR SERVICES' subTitle='What We Offer'/>
         <Services/>
         <About setPlayVideo={setPlayVideo}/>
-        <Title title='WHY STELVEY' subTitle='Your Logistics Partner Of Choice'/>
+        <Title title='WHY STELVY' subTitle='Your Logistics Partner Of Choice'/>
         <WhyStelvey/>
         <Title title='TESTIMONIALS' subTitle='What Customers Say'/>
         <Testimonials/>
