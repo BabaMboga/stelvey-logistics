@@ -10,7 +10,7 @@ const Hero = () => {
           We deliver reliable logistics for a connected world.
         </h1>
         <p>
-            Stelvey Logistics Limited provides efficient, secure and timely
+            Stelvy Logistics Limited provides efficient, secure and timely
             transport solutions, ensuring your goods move seamlessly from origin to
             destination with precision and care.
         </p>

@@ -27,7 +27,7 @@ const Navbar = () => {
           <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link> </li>
           <li><Link to='service' smooth={true} offset={-260} duration={500}>Services</Link> </li>
           <li><Link to='about' smooth={true} offset={-150} duration={500}>About Us</Link> </li>
-          <li><Link to='whystelvey' smooth={true} offset={-260} duration={500}>Why Stelvey</Link> </li>
+          <li><Link to='whystelvey' smooth={true} offset={-260} duration={500}>Why Stelvy</Link> </li>
           <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link> </li>
           <li>
             <Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>Contact Us</Link>
